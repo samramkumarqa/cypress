@@ -17,7 +17,7 @@ describe('pom',()=>{
         
         const ln = new Login();
         ln.setUserName("Admin")
-        ln.setPassword("admin123")
+        ln.setPassword("admin12")
         ln.clickSubmit()
         ln.verifyLogin()
     })
