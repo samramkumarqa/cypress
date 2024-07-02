@@ -11,7 +11,7 @@ describe('pom',()=>{
         cy.get('.oxd-topbar-header-breadcrumb > .oxd-text').should('have.text', 'Dashboard');
     })
 
-    //using pom
+    //using POM
     it('LoginTest', () => {
         cy.visit("https://opensource-demo.orangehrmlive.com/");
         
